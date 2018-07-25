@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProducer", "KafkaProducer\KafkaProducer.csproj", "{7FC55140-C96C-4BB7-9324-0E8F95B27CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumerOne", "KafkaConsumerOne\KafkaConsumerOne.csproj", "{2EC34A42-97EB-446C-A285-E8559FBE5937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumerTwo", "KafkaConsumerTwo\KafkaConsumerTwo.csproj", "{97EDC252-8B81-4A14-8A25-454DDABA4AD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FC55140-C96C-4BB7-9324-0E8F95B27CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC55140-C96C-4BB7-9324-0E8F95B27CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC55140-C96C-4BB7-9324-0E8F95B27CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC55140-C96C-4BB7-9324-0E8F95B27CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC34A42-97EB-446C-A285-E8559FBE5937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC34A42-97EB-446C-A285-E8559FBE5937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC34A42-97EB-446C-A285-E8559FBE5937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC34A42-97EB-446C-A285-E8559FBE5937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EDC252-8B81-4A14-8A25-454DDABA4AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EDC252-8B81-4A14-8A25-454DDABA4AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EDC252-8B81-4A14-8A25-454DDABA4AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EDC252-8B81-4A14-8A25-454DDABA4AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CE250F7-45A4-44BC-8E27-8908182E29BA}
+	EndGlobalSection
+EndGlobal
