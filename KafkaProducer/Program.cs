@@ -10,6 +10,9 @@ namespace KafkaProducer
     {
         static void Main(string[] args)
         {
+            // https://github.com/wurstmeister/kafka-docker
+            // https://github.com/sheepkiller/kafka-manager-docker
+
             var config = new Dictionary<string, object>
             {
                 { "bootstrap.servers", "192.168.199.235:9092" }
